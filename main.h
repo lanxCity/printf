@@ -1,12 +1,6 @@
 #ifndef _MAIN_H
 #define _MAIN_H
 
-/*Header files*/
-#include <unistd.h>
-#include <stdlib.h>
-#include <stdarg.h>
-
-/*Prototypes*/
 int _putchar(char c);
 int _strlen(char *s);
 int _strlenc(const char *s);
