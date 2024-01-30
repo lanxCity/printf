@@ -1,16 +1,15 @@
 #include "main.h"
 
 /**
- * print_strings - A function that prints int numbers
- * @arg_list: A list of args
+ * print_str - A function that prints int numbers
+ * @str: A list of args
  * Return: int
  */
-int print_strings(va_list arg_list)
+int print_str(char *str)
 {
 	int i, len;
-	char *str;
 	/**/
-	str = va_arg(arg_list, char *);
+	/*str = va_arg(arg_list, char *);*/
 
 	if (str == NULL)
 	{
