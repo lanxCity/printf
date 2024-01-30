@@ -28,7 +28,7 @@ int print_strings(va_list arg_list)
 		for (i = 0; i < n; i++)
 			_putchar(str[i]);
 	}
-	
+	/**/
 	return (len);
 }
 

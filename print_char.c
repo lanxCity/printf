@@ -2,7 +2,7 @@
 
 /**
  * print_char - Function that rints characters
- * @val: a list of variadic args
+ * @arg_list: a list of variadic args
  * Return: 0
  */
 int print_char(va_list arg_list)

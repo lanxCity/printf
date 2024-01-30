@@ -16,6 +16,11 @@ int _strlen(char *s)
 	return (i);
 }
 
+/**
+ * _strlenc - Determines the length of a string
+ * @s: param
+ * Return: returns the length of a string
+ */
 int _strlenc(const char *s)
 {
 	int i;
