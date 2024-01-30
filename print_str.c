@@ -24,7 +24,7 @@ int print_strings(va_list arg_list)
 	{
 		len = _strlen(str);
 
-		for (i = 0; i < n; i++)
+		for (i = 0; i < len; i++)
 			_putchar(str[i]);
 	}
 	/**/
